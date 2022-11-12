@@ -52,7 +52,7 @@ function EditListing() {
         return() => {
             isMounted.current = false
         }
-    }, [isMounted, auth, formData, navigate])
+    }, [isMounted])
 
     // Redirect if listing is not uiser's
     useEffect(() => {
